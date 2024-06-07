@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <>
     <div className="flex justify-center flex-col items-center gap-4 text-white h-[44vh]">
-      <div className="font-bold text-5xl">
-        Buy me a Beverage
+      <div className="font-bold text-5xl flex gap-2 justify-center items-center">
+        Buy me a Beverage <span><img src="/beverage.gif" width={88} alt=""></img></span>
       </div>
       <p>
         A crowdfunding platform for creators. Get funded by your fans and followers. Start now!
@@ -21,6 +21,14 @@ export default function Home() {
     </div>
     <div className="bg-white h-1 opacity-10">
       abc
+    </div>
+    <div>
+      <h1>Your Fans can buy you a Beverage</h1>
+      <div className="flex gap-5">
+        <div className="item">
+          <img src="/man.gif" alt=""></img>
+        </div>
+      </div>
     </div>
     </>
   );
