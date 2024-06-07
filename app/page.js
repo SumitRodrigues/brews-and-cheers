@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
     <div className="flex justify-center flex-col items-center gap-4 text-white h-[44vh]">
-      <div className="font-bold text-3xl">
+      <div className="font-bold text-5xl">
         Buy me a Beverage
       </div>
       <p>
