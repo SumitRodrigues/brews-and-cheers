@@ -23,7 +23,7 @@ export default function Home() {
         abc
       </div>
       <div className="text-white container mx-auto pb-32 pt-14">
-        <h1 className="text-3xl font-bold text-center mb-14">Your Fans can buy you a Beverage</h1>
+        <h2 className="text-3xl font-bold text-center mb-14">Your Fans can buy you a Beverage</h2>
         <div className="flex gap-5 justify-around">
           <div className="item space-y-3 flex flex-col items-center justify-center">
             <img className="bg-slate-400 rounded-full p-2 text-black" width={88} src="/man.gif" alt=""></img>
@@ -46,7 +46,7 @@ export default function Home() {
         abc
       </div>
       <div className="text-white container mx-auto pb-32 pt-14 flex flex-col items-center justify-center">
-      <h1 className="text-3xl font-bold text-center mb-14">Learn more about us</h1>
+      <h2 className="text-3xl font-bold text-center mb-14">Learn more about us</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Ey-mwAKztWk?si=hvOU7_MCTfzW1xwi"
           title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
     gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
